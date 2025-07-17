@@ -117,4 +117,5 @@ MIT Licens
 
 ## Contributing
 
-This project focuses on R&D of New Home Made RAG techniques. Contributions to algorithm improvements and performance optimizations are of course welcome. 
+This project focuses on R&D of new Intelligent RAG techniques. 
+Contributions to algorithm improvements and performance optimizations are of course welcome.
