@@ -1,6 +1,6 @@
-# ChatPDF - Optimized RAG System
+# ChatPDF - Optimized Home made RAG
 
-**Developed optimized RAG system with custom algorithm for enhanced prompt engineering and intelligent chunk selection**
+**Developed optimized RAG system with custom intelligent algorithm for enhanced prompt engineering and intelligent chunk selection**
 
 ## Overview
 
@@ -99,7 +99,6 @@ simple-rag/
 
 5. **Run the application**
    ```bash
-   cd simple-rag
    streamlit run app.py
    ```
 
@@ -110,20 +109,7 @@ simple-rag/
 3. **Ask Questions**: Enter questions about the document content
 4. **Review Process**: Check `prompty.json` to see prompt generation and chunk selection details
 
-## Technical Specifications
 
-- **Embedding Model**: `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2`
-- **LLM**: Mistral 7B via Ollama
-- **Vector Database**: MongoDB with custom cosine similarity aggregation
-- **Chunk Size**: 1024 characters with 128 character overlap
-- **Retrieval Strategy**: Multi-prompt weighted retrieval with adjacency enhancement
-
-## Performance Characteristics
-
-- **Enhanced Context Relevance**: Multi-prompt strategy captures diverse semantic aspects
-- **Document Continuity**: Adjacent chunk inclusion maintains narrative flow
-- **Weighted Prioritization**: User intent receives highest priority in retrieval
-- **Scalable Architecture**: MongoDB backend supports large document collections
 
 ## License
 
