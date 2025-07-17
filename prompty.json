@@ -1,0 +1,177 @@
+// this is the json file that is used to check the prompts and chunks
+{
+    "prompts": [
+        {
+            "prompt": "How to do sap transfer?",
+            "chunks": [
+                {
+                    "chunk_index": 38,
+                    "similarity": 0.6161812381832728
+                },
+                {
+                    "chunk_index": 38,
+                    "similarity": 0.6161812381832728
+                },
+                {
+                    "chunk_index": 15,
+                    "similarity": 0.46609364347939947
+                },
+                {
+                    "chunk_index": 15,
+                    "similarity": 0.46609364347939947
+                },
+                {
+                    "chunk_index": 39,
+                    "similarity": 0.44525767835025915
+                }
+            ]
+        },
+        {
+            "prompt": "1. \"What are the steps involved in SAP transport?\"",
+            "chunks": [
+                {
+                    "chunk_index": 38,
+                    "similarity": 0.5825073408822689
+                },
+                {
+                    "chunk_index": 38,
+                    "similarity": 0.5825073408822689
+                },
+                {
+                    "chunk_index": 15,
+                    "similarity": 0.45401359632408095
+                },
+                {
+                    "chunk_index": 15,
+                    "similarity": 0.45401359632408095
+                },
+                {
+                    "chunk_index": 39,
+                    "similarity": 0.4259149532740024
+                }
+            ]
+        },
+        {
+            "prompt": "2. \"How can I create an SAP transport request?\"",
+            "chunks": [
+                {
+                    "chunk_index": 38,
+                    "similarity": 0.4544638590770998
+                },
+                {
+                    "chunk_index": 38,
+                    "similarity": 0.4544638590770998
+                },
+                {
+                    "chunk_index": 10,
+                    "similarity": 0.4133608309737247
+                },
+                {
+                    "chunk_index": 10,
+                    "similarity": 0.4133608309737247
+                },
+                {
+                    "chunk_index": 9,
+                    "similarity": 0.3778923517699643
+                }
+            ]
+        },
+        {
+            "prompt": "3. \"What is the process for executing an SAP transport request?\"",
+            "chunks": [
+                {
+                    "chunk_index": 38,
+                    "similarity": 0.5306096646416794
+                },
+                {
+                    "chunk_index": 38,
+                    "similarity": 0.5306096646416794
+                },
+                {
+                    "chunk_index": 15,
+                    "similarity": 0.437302838289826
+                },
+                {
+                    "chunk_index": 15,
+                    "similarity": 0.437302838289826
+                },
+                {
+                    "chunk_index": 9,
+                    "similarity": 0.42558261929328917
+                }
+            ]
+        },
+        {
+            "prompt": "4. \"How to check the status of a transport request in SAP?\"",
+            "chunks": [
+                {
+                    "chunk_index": 38,
+                    "similarity": 0.40885779041979
+                },
+                {
+                    "chunk_index": 38,
+                    "similarity": 0.40885779041979
+                },
+                {
+                    "chunk_index": 39,
+                    "similarity": 0.37343653114975933
+                },
+                {
+                    "chunk_index": 39,
+                    "similarity": 0.37343653114975933
+                },
+                {
+                    "chunk_index": 5,
+                    "similarity": 0.368392422572781
+                }
+            ]
+        },
+        {
+            "prompt": "5. \"How to activate a transport request in SAP?\"",
+            "chunks": [
+                {
+                    "chunk_index": 38,
+                    "similarity": 0.48154977212687755
+                },
+                {
+                    "chunk_index": 38,
+                    "similarity": 0.48154977212687755
+                },
+                {
+                    "chunk_index": 10,
+                    "similarity": 0.3930663013926218
+                },
+                {
+                    "chunk_index": 10,
+                    "similarity": 0.3930663013926218
+                },
+                {
+                    "chunk_index": 15,
+                    "similarity": 0.3683201410736196
+                }
+            ]
+        }
+    ],
+    "top_3_chunks": [
+        38,
+        15,
+        39
+    ],
+    "top_10_indices": [
+        5,
+        38,
+        39,
+        9,
+        10,
+        15
+    ],
+    "adjacent_chunks": [
+        38,
+        39
+    ],
+    "final_chunks": [
+        15,
+        38,
+        39
+    ]
+}
