@@ -12,8 +12,8 @@ This project implements a new Retrieval Augmented Generation (RAG) system i crea
 
 The system employs a **weighted multi-prompt strategy** that generates multiple query variations to capture different semantic aspects of the user's question:
 
-1. **Primary Query Processing**: User input receives the highest weight (1.05)
-2. **LLM-Generated Prompts**: Five additional prompts are generated using the base LLM, each exploring different perspectives of the original query
+1. **Primary Query Processing**: User input receives the highest weight
+2. **LLM-Generated Prompts**: X additional prompts are generated using the base LLM, each exploring different perspectives of the original query
 3. **Weighted Scoring**: Generated prompts receive decreasing weights to prioritize relevancy
 
 ### Intelligent Chunk Selection Algorithm
@@ -21,17 +21,17 @@ The system employs a **weighted multi-prompt strategy** that generates multiple 
 The chunk selection process implements a **multi-stage ranking and adjacency detection system**:
 
 #### Stage 1: Multi-Prompt Retrieval
-- For each prompt (user + 5 generated), retrieve top 5 most similar chunks
+- For each prompt (user + x generated), retrieve top x most similar chunks
 - Apply weight multipliers to similarity scores
 - Aggregate all results across prompts
 
 #### Stage 2: Deduplication and Ranking
 - Sort all chunks by weighted similarity scores
 - Remove duplicates while preserving highest-scored instances
-- Select top 3 unique chunks as primary context
+- Select top y unique chunks as primary context
 
 #### Stage 3: Adjacency Enhancement
-- Identify chunks adjacent to top 3 chunks (±1 index positions)
+- Identify chunks adjacent to top y chunks (±1 index positions)
 - Include adjacent chunks to maintain document continuity
 - Combine primary and adjacent chunks for final context
 
@@ -70,7 +70,7 @@ simple-rag/
 ### Prerequisites
 - Python
 - MongoDB
-- Ollama with Mistral 7B model (or whatever model u prefer)
+- Ollama with Mistral 7B model (or whatever model u prefer, the bigger the better)
 
 ### Setup Instructions
 
